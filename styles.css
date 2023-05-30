@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
+* {
+    font-family: 'Euphoria Script', cursive;
+}
+
+.background {
+    background-size: auto;
+}
+
+body {
+    background-image: url('./backgroundImage.jpeg');
+    background-repeat: no-repeat;
+}
+
+main {
+    text-align: center;
+}
+
+.title-container {
+    padding-top: 30%;
+    /* padding-bottom: 5%; */
+}
+
+.title {
+    font-size: 9em;
+}
+
+.subtitle {
+    font-size: 5em;
+}
+
+.description {
+    width: 50%;
+    font-size: 2em;
+    margin: auto;
+}
+
+li {
+    padding: 5%;
+}
+
+.event-title {
+    font-size: 4em;
+}
+
+.program-list {
+    list-style-type: none;
+}
+
+
+
+
