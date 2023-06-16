@@ -1,38 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;500;600&display=swap');
+
+@font-face {
+    font-family: title-font;
+    src: url(Brotherhood_Script.ttf);
+  }
 
 * {
-    font-family: 'Euphoria Script', cursive;
+    font-family: 'Cormorant Upright', serif;
 }
 
-.background {
-    background-size: auto;
-}
 
 body {
-    background-image: url('./backgroundImage.jpeg');
+    background-image: url('./backgroundImage8.webp');
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: contain;
+    background-color: #dcc9d3;
 }
+
+
 
 main {
     text-align: center;
 }
 
+.header {
+    padding-top: 20%;
+}
+
+.bismillah-description {
+    font-size: 1.5em;
+    padding-bottom: 10%;
+}
+
+.image {
+    width: 50%;
+}
+
 .title-container {
-    padding-top: 30%;
-    /* padding-bottom: 5%; */
+    /* padding-top: 20%; */
+    padding-bottom: 15%;
 }
 
 .title {
-    font-size: 9em;
+    font-family: title-font;
+    font-size: 12em;
+    /* text-transform: uppercase; */
 }
 
+
+
 .subtitle {
-    font-size: 5em;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subpage-box {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 10%;
 }
 
 .description {
-    width: 50%;
-    font-size: 2em;
+    font-size: 1.3em;
     margin: auto;
 }
 
@@ -41,13 +72,133 @@ li {
 }
 
 .event-title {
-    font-size: 4em;
+    font-size: 1.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.event-subtitle {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.event-description {
+    font-style: italic;
+    font-size: 1.5em;
 }
 
 .program-list {
     list-style-type: none;
 }
 
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    body {
+        background-image: url("./backgroundImageLargest.webp");
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: contain;
+    }
+}
 
+@media screen and (min-resolution: 192dpi) and (min-width: 1024px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px) {
+    body {
+        background-image: url("./backgroundImage2.webp");
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: contain;
+    }
+}
 
+/* @media screen and (min-resolution: 192dpi) and (min-width: 768px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) {
+    body {
+        background-image: url("./backgroundImage3.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+}
 
+@media screen and (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+    body {
+        background-image: url("./backgroundImage4.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+} */
+
+/* @media screen and (min-resolution: 144dpi) and (min-width: 1280px),(-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px) {
+    body {
+        background-image: url("./backgroundImage5.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-resolution: 144dpi) and (min-width: 1024px),(-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1024px) {
+    body {
+        background-image: url("./backgroundImage6.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+} */
+
+/* @media screen and (min-resolution: 144dpi) and (min-width: 768px),(-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px) {
+    body {
+        background-image: url("./backgroundImage7.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+} */
+
+/* @media screen and (min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5) {
+    body {
+        background-image: url("./backgroundImage8.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+} */
+
+/* @media screen and (min-width: 1280px) {
+    body {
+        background-image: url("./backgroundImage9.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-image: url("./backgroundImage10.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+} */
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url("./backgroundImage11.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .title {
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-size: 2em;
+    }
+
+    .title-container {
+        padding-top: 60%;
+    }
+}
