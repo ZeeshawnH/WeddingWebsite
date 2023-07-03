@@ -16,6 +16,6 @@ setInterval(function() {
     let days = Math.floor(hours / 24);
 
 
-    countdown.innerHTML = `Time left: ${days}:${hours % 24}:${mins % 60}:${secs % 60}`;
+    countdown.innerHTML = `${days}:${hours % 24}:${mins % 60}:${secs % 60} until the big day!`;
 
 });
