@@ -88,6 +88,10 @@ nav {
     font-style: italic;
 }
 
+.nav-item > a {
+    text-decoration: underline rgba(0, 0, 0, 0);
+}
+
 .nav-item:hover {
     transition: 200ms ease-out;
     cursor: pointer;
